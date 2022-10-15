@@ -1,0 +1,10 @@
+#quadrado{
+    width: 150px; 
+    height: 150px; 
+}
+.apagada{
+    background-color: #424242;
+}
+.acesa{
+    background-color: #ffff00;
+}

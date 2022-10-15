@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02 - Projeto Blog</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="https://kit.fontawesome.com/4979f9e0b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <nav class="wrapper flex">
+            <h3>Blog</h3>
+            <div class="link_menu">
+                <a href="../index.html">blog</a>
+                <a href="./contato.html" class="link_ativo">contatos</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="secao_contato" class="wrapper">
+            <div class="textos_contato">
+                <h2>Entre em contato!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repudiandae deleniti perferendis, modi iusto dicta cupiditate iste voluptates similique voluptas possimus quaerat, praesentium, consequatur delectus mollitia quasi eveniet eos vitae.</p>
+            </div>
+            <form id="form_contato">
+                <div class="inputs_form flex">
+                    <div class="input_text">
+                        <label for="nome_usuario">Nome</label>
+                        <input type="text" id="nome_usuario" placeholder="Digite o seu nome">
+                    </div>
+                    <div class="input_text">
+                        <label for="email_usuario">E-mail</label>
+                        <input type="email" id="email_usuario" placeholder="Digite o seu e-mail">
+                    </div>
+                    <div class="input_text input_textarea">
+                        <label for="mensagem_usuario">Mensagem</label>
+                        <textarea id="mensagem_usuario" placeholder="Digite aqui sua mensagem" maxlength="400"></textarea>
+                    </div>
+                </div>
+                <button type="button" id="btn_enviar">Enviar mensagem!</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#fff;
+}
+header{
+    background-color:#3C184E;   
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.embrulho{
+    width: 1120px;
+    margin: 0 auto;
+}
+/* Começo da seção 1 */
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+}
+.subitulo{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+#botao{
+    background-color: #713fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px;
+}
+/* Fim da seção 1 */
+/* Começo da seção 2 */
+#fundo-secao2{
+    background-color: gainsboro;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    color: #fff;
+}
+article{
+    margin: 50px 0px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+h3{
+    font-size: 23px;
+    font-family: 'Merriweather', serif
+}
+.texto{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}

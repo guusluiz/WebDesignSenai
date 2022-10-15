@@ -1,0 +1,48 @@
+/* Estilização Específica do arquivo index.html */  
+#postagens{
+    padding: 32px 0;
+}
+.post{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    color: #B6B6B6;
+}
+.cabecalho_post > p{
+    font-size: 16px;
+}
+.textos > h2{
+    color: #313131;
+    font-weight: 400;
+    font-size: 26px;
+    margin: 16px 0 6px;
+}
+.textos > p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho_post > i{
+    color: #bc3fdb;
+    font-size: 25px;
+}
+.cabecalho_post > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 900;
+    cursor: pointer;
+}
+#artigo4{
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 8px 10px rgba(19, 19, 31, 0.05);
+}
+#img{   
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 -8px 10px rgba(19, 19, 31, 0.05);
+    background: linear-gradient(90deg, rgba(219, 73, 196, 0.3) 0%, rgba(188, 62, 219, 0.3) 100%), url(../img/imagem-tucano.jpg);
+    background-size: 100%;
+    background-position: 0 -87px;
+}

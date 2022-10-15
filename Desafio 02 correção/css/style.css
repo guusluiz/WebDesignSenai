@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Aprendendo a importar fonte
+@font-face {
+font-family: Rock;
+src: url(./Tales\ of\ Scare\ FX.ttf)
+} */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #F3F5F7;
+    padding: 64px 0;
+    min-height: 90vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h3, a, h2, p, label, input, textarea, button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.wrapper{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ /* Cabeçalho */
+#cabecalho{
+    background: linear-gradient(90deg, #DB49C4 0%, #BC3EDB 100%);
+    padding: 32px 0;
+    color:white;
+}
+.link_menu > a{
+    padding: 12px 15px;
+}
+.link_menu > a:hover{
+    opacity: 0.5;
+}
+.link_ativo{
+    text-decoration: underline;
+}
+
+/* footer */
+footer{
+    background-color: #BC3EDB;
+    text-align: center;
+    color: #f6f6f6;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px;
+}
+footer > p > a{
+    text-decoration: underline;
+}
+
